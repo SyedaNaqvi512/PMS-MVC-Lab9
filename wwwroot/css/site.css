@@ -1,0 +1,76 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #2ecc71;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+/* ===== Green theme ===== */
+:root {
+  --theme-green: #1e8449;
+  --theme-green-dark: #145a32;
+  --theme-green-light: #e8f5e9;
+  --bs-primary: #1e8449;
+  --bs-primary-rgb: 30, 132, 73;
+  --bs-link-color: #1e8449;
+  --bs-link-hover-color: #145a32;
+}
+
+body {
+  background-color: #f4faf6;
+}
+
+.theme-navbar {
+  background: linear-gradient(90deg, #145a32, #1e8449);
+}
+
+.btn-primary {
+  --bs-btn-bg: #1e8449;
+  --bs-btn-border-color: #1e8449;
+  --bs-btn-hover-bg: #145a32;
+  --bs-btn-hover-border-color: #145a32;
+  --bs-btn-active-bg: #0e4325;
+  --bs-btn-active-border-color: #0e4325;
+  --bs-btn-disabled-bg: #1e8449;
+  --bs-btn-disabled-border-color: #1e8449;
+}
+
+.table-green > tr > *,
+.table-green th {
+  background-color: #1e8449 !important;
+  color: #fff !important;
+  border-color: #166a3b !important;
+}
+
+.table-hover > tbody > tr:hover > * {
+  background-color: #d5efdc;
+}
+
+h2, h1 {
+  color: #145a32;
+}
+
+.form-control:focus, .form-select:focus {
+  border-color: #1e8449;
+  box-shadow: 0 0 0 0.2rem rgba(30, 132, 73, 0.25);
+}
+
+.footer {
+  background-color: #e8f5e9;
+}
